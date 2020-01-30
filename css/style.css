@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: tomato;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+#gameboard{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#square1:hover{
+    background-color: white;
+}
+
+#square2:hover{
+    background-color: white;
+}
+
+#square3:hover{
+    background-color: white;
+}
+
+#square4:hover{
+    background-color: white;
+}
+
+#square5:hover{
+    background-color: white;
+}
+
+#square6:hover{
+    background-color: white;
+}
+
+#square7:hover{
+    background-color: white;
+}
+
+#square8:hover{
+    background-color: white;
+}
+
+#square9:hover{
+    background-color: white;
+}
+
+footer{
+    font-size: 15px;
+    text-align: center;
+}
+
+input{
+    display: block;
+    margin: auto;
+}
