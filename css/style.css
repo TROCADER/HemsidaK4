@@ -16,6 +16,10 @@ h1{
     grid-template-rows: 1fr 1fr 1fr;
 }
 
+.square{
+    border: 3px solid;
+    border-color: black;
+}
 #square1:hover{
     background-color: white;
 }

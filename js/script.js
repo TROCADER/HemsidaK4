@@ -1,18 +1,17 @@
-const x1 = document.querySelector("#x1");
-const x2 = document.querySelector("#x2");
-const x3 = document.querySelector("#x3");
-const x4 = document.querySelector("#x4");
-const x5 = document.querySelector("#x5");
-const x6 = document.querySelector("#x6");
-const x7 = document.querySelector("#x7");
-const x8 = document.querySelector("#x8");
-const x9 = document.querySelector("#x9");
-const o1 = document.querySelector("#o1");
-const o2 = document.querySelector("#o2");
-const o3 = document.querySelector("#o3");
-const o4 = document.querySelector("#o4");
-const o5 = document.querySelector("#o5");
-const o6 = document.querySelector("#o6");
-const o7 = document.querySelector("#o7");
-const o8 = document.querySelector("#o8");
-const o9 = document.querySelector("#o9");
+function getWinner()
+{
+    let square1 = document.querySelector("square1");
+    let square2 = document.querySelector("square2");
+    let square3 = document.querySelector("square3");
+    let square4 = document.querySelector("square4");
+    let square5 = document.querySelector("square5");
+    let square6 = document.querySelector("square6");
+    let square7 = document.querySelector("square7");
+    let square8 = document.querySelector("square8");
+    let square9 = document.querySelector("square9");
+
+    if (square1.innerHTML !== "" && square1.innerHTML === square2.innerHTML && square1.innerHTML === square3.innerHTML)
+    {
+        console.log("You won");
+    }
+}
