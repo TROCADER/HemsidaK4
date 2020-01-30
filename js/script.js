@@ -46,11 +46,13 @@ function getWinner()
         console.log("You won");
     }
 
+    //Vinstschenario diagonalt 1
     else if (square1.innerHTML !== "" && square1.innerHTML === square5.innerHTML && square1.innerHTML === square9.innerHTML)
     {
         console.log("You won");
     }
 
+    //Vinstschenario diagonalt 2
     else if (square3.innerHTML !== "" && square3.innerHTML === square5.innerHTML && square3.innerHTML === square7.innerHTML)
     {
         console.log("You won");
