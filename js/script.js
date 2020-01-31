@@ -1,3 +1,6 @@
+const button = document.querySelectorAll("#button");
+button.addEventListener("click", clicked);
+
 function winner()
 {
     let square1 = document.querySelector("square1");
@@ -57,4 +60,6 @@ function winner()
     {
         console.log("You won");
     }
+
+    document.getElementById("square1").style.display = "block";
 }

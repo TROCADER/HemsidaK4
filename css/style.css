@@ -1,8 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     background-color: tomato;
+}
+
+article{
+    margin: 10px;
 }
 
 h1{
@@ -19,6 +27,7 @@ h1{
 .square{
     border: 3px solid;
     border-color: black;
+    text-align: center;
 }
 #square1:hover{
     background-color: white;
@@ -61,7 +70,8 @@ footer{
     text-align: center;
 }
 
-input{
+img{
     display: block;
     margin: auto;
+    width: 33%;
 }
