@@ -1,4 +1,4 @@
-function getWinner()
+function winner()
 {
     let square1 = document.querySelector("square1");
     let square2 = document.querySelector("square2");
