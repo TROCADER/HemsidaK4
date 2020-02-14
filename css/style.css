@@ -6,8 +6,10 @@
 body{
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
     font-size: 20px;
     background-color: tomato;
+    background-image: url(https://mcdn.wallpapersafari.com/medium/23/92/H7KI9n.jpg);
 }
 
 article{
@@ -31,13 +33,15 @@ img{
 }
 
 .square{
+    background-color: teal;
     border: 3px solid;
-    border-color: black;
+    border-color: lightgrey;
     text-align: center;
 }
 
 .square:hover{
-    background-color: white;
+    background-color: grey;
+    transition: 0.5s;
 }
 
 #gameboard{
@@ -49,4 +53,14 @@ img{
 #button{
     display: block;
     margin: auto;
+    background-color: white;
+    border: solid;
+    color: blue;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#button:hover{
+    background-color: black;
+    transition: 1s;
 }

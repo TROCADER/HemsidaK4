@@ -70,7 +70,7 @@ function finish()
     /*
     //För att testa om knappen fungerar
     page.style.display = "none"
-    */
+    
 
     let playerTurn = 1;
 
@@ -82,4 +82,7 @@ function finish()
             
         }
     }
+    */
+
+    
 }
