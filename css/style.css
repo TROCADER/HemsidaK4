@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    line-height: normal;
 }
 
 body{
@@ -18,53 +19,6 @@ h1{
     text-align: center;
 }
 
-#gameboard{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-}
-
-.square{
-    border: 3px solid;
-    border-color: black;
-    text-align: center;
-}
-#square1:hover{
-    background-color: white;
-}
-
-#square2:hover{
-    background-color: white;
-}
-
-#square3:hover{
-    background-color: white;
-}
-
-#square4:hover{
-    background-color: white;
-}
-
-#square5:hover{
-    background-color: white;
-}
-
-#square6:hover{
-    background-color: white;
-}
-
-#square7:hover{
-    background-color: white;
-}
-
-#square8:hover{
-    background-color: white;
-}
-
-#square9:hover{
-    background-color: white;
-}
-
 footer{
     font-size: 15px;
     text-align: center;
@@ -74,4 +28,25 @@ img{
     display: block;
     margin: auto;
     width: 33%;
+}
+
+.square{
+    border: 3px solid;
+    border-color: black;
+    text-align: center;
+}
+
+.square:hover{
+    background-color: white;
+}
+
+#gameboard{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#button{
+    display: block;
+    margin: auto;
 }
