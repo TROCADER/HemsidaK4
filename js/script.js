@@ -4,7 +4,7 @@ let is3InRow = false;
 const button = document.querySelectorAll("#button");
 //button.addEventListener("click", clicked);
 
-function vinstschenario()
+function vinstSchenario()
 {
     let square1 = document.querySelector("square1");
     let square2 = document.querySelector("square2");
@@ -15,11 +15,6 @@ function vinstschenario()
     let square7 = document.querySelector("square7");
     let square8 = document.querySelector("square8");
     let square9 = document.querySelector("square9");
-
-    if (square1 !== "")
-    {
-        console.log("It works");
-    }
 
     //Vinstschenario vågrätt 1
     if (square1.innerHTML !== "" && square1.innerHTML === square2.innerHTML && square1.innerHTML === square3.innerHTML)
@@ -61,4 +56,9 @@ function vinstschenario()
     {
         console.log("You won");
     }
+}
+
+for (let i = 0; i < squares.lenght; i++)
+{
+    
 }
