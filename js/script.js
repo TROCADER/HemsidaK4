@@ -1,8 +1,8 @@
-let squares = document.querySelectorAll("#gameboard");
-let is3InRow = false;
+const button = document.querySelector("#button");
+button.addEventListener("click", finish);
 
-const button = document.querySelectorAll("#button");
-//button.addEventListener("click", clicked);
+const page = document.querySelector("#page");
+
 
 function vinstSchenario()
 {
@@ -19,46 +19,61 @@ function vinstSchenario()
     //Vinstschenario vågrätt 1
     if (square1.innerHTML !== "" && square1.innerHTML === square2.innerHTML && square1.innerHTML === square3.innerHTML)
     {
-        console.log("You won");
+        console.log("Test");
     }
     //Vinstschenario vågrätt 2
     else if (square4.innerHTML !== "" && square4.innerHTML === square5.innerHTML && square4.innerHTML === square6.innerHTML)
     {
-        console.log("You won");
+        console.log("Test");
     }
     //Vinstschenario vågrätt 2
     else if (square7.innerHTML !== "" && square7.innerHTML === square8.innerHTML && square4.innerHTML === square9.innerHTML)
     {
-        console.log("You won");
+        console.log("Test");
     }
     //Vinstschenario lodrätt 1
     else if (square1.innerHTML !== "" && square1.innerHTML === square4.innerHTML && square1.innerHTML === square7.innerHTML)
     {
-        console.log("You won");
+        console.log("Test");
     }
     //Vinstschenario lodrätt 2
     else if (square2.innerHTML !== "" && square2.innerHTML === square5.innerHTML && square2.innerHTML === square8.innerHTML)
     {
-        console.log("You won");
+        console.log("Test");
     }
     //Vinstschenario lodrätt 3
     else if (square3.innerHTML !== "" && square3.innerHTML === square6.innerHTML && square3.innerHTML === square9.innerHTML)
     {
-        console.log("You won");
+        console.log("Test");
     }
     //Vinstschenario diagonalt 1
     else if (square1.innerHTML !== "" && square1.innerHTML === square5.innerHTML && square1.innerHTML === square9.innerHTML)
     {
-        console.log("You won");
+        console.log("Test");
     }
     //Vinstschenario diagonalt 2
     else if (square3.innerHTML !== "" && square3.innerHTML === square5.innerHTML && square3.innerHTML === square7.innerHTML)
     {
-        console.log("You won");
+        console.log("Test");
     }
 }
 
-for (let i = 0; i < squares.lenght; i++)
+function finish()
 {
+    /*
+    //För att testa om knappen fungerar
+    page.style.display = "none"
     
+
+    let playerTurn = 1;
+
+    while (playerTurn > 0)
+    {
+        if (playerTurn === 1)
+        {
+            x1.style.display = "none"
+            
+        }
+    }
+    */
 }
